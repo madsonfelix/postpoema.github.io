@@ -1,0 +1,155 @@
+/* -------------------------------------------------Geral-------------------------------------------------- */
+
+body{
+    background-image: url("papel.jpg") ;
+}
+button{
+    border: none;
+    background: none;
+    background-color: rgba(51, 22, 155, 0.192);
+    /* background-color: rgba(187, 67, 235, 0.192); */
+    font-family: "namskin";
+    font-size: 1.5em;
+    color: rgb(77, 11, 83);
+    /* border-color: rgba(114, 29, 194, 0.267); */
+    opacity: 75%;
+}
+
+/* -------------------------------------------------Header------------------------------------------------- */
+@font-face{
+    src: url("../fonts/Mulberry.ttf");
+    font-family: "mulberry";
+}
+@font-face{
+    src: url("../fonts/Namskin.otf");
+    font-family: "namskin";
+}
+@font-face{
+    src: url("../fonts/Freeride.otf");
+    font-family: "freeride";
+}
+/* ----------------------------------------------- Navbars ----------------------------------------------- */
+#menu{
+    display: grid;
+    grid-template-areas: "... poesia ... autor ... random ... bLog ...";
+    grid-template-columns: 1fr 60px 1fr 60px 1fr 90px 1fr 60px 1fr;
+    margin-top: 2em;
+}
+#menuLog{
+    display: grid;
+    grid-template-areas: "... inic ... poesia ... autor ... random ...";
+    grid-template-columns: 1fr 60px 1fr 60px 1fr 60px 1fr 90px 1fr;
+    margin-top: 2em;
+}
+/* ------------------------------------------------Botões------------------------------------------------- */
+/* Botões da nav bar */
+#menuini{
+    grid-area: inic;
+    width: 130px;
+}
+#menupoe{
+    grid-area: poesia;
+    width: 130px;
+}
+#menuaut{
+    grid-area: autor;
+    width: 140px;
+}
+#menurand{
+    grid-area: random;
+    width: 160px;
+}
+#menuwrite{
+    grid-area: escreve;
+    width: 140px;
+}
+#menulogin{
+    grid-area: bLog;
+    width: 100px;
+}
+ /* Fim B Navbar */
+
+ /* Botões tela login */
+ 
+ /* Fim B. Tela Login */
+ #bcadastrar{
+    grid-area: cad;
+    font-family: "namskin";
+    font-size: 3em;
+    color: rgb(54, 5, 109);
+ }
+ #blogar{
+    grid-area: log;
+    font-family: "namskin";
+    font-size: 3em;
+    color: rgb(54, 5, 109);
+ }
+/* -----------------------------------------------Sections------------------------------------------------ */
+
+#cadastroOuLogin{
+    margin-top: 15%;
+    margin-bottom: unset;
+    display: grid;
+    grid-template-areas: "... cad ... log ...";
+    grid-template-columns: 1fr auto 1fr auto 1fr;
+    opacity: 80%;
+}
+#login{
+    margin-top: 5%;
+    margin-bottom: unset;
+    display: grid;
+    grid-template-areas: "... formlog ...";
+    grid-template-columns: 1fr auto 1fr;
+    opacity: 80%;
+}
+#cadastro{
+    margin-top: 2%;
+    margin-bottom: unset;
+    display: grid;
+    grid-template-areas: "... formcad ...";
+    grid-template-columns: 1fr auto 1fr;
+    opacity: 80%;
+}
+
+/* Sections tela Login */
+
+/* Fim Sections tela Login */
+/* ------------------------------------------------divs--------------------------------------------------- */
+#dtitulo{
+    margin-top: 10%;
+    margin-bottom: unset;
+    display: grid;
+    grid-template-areas: "... tit ...";
+    grid-template-columns: 1fr auto 1fr;
+    opacity: 65%;
+    
+}
+/* ------------------------------------------------ Forms ------------------------------------------------ */
+
+#formlogin{
+    grid-area: formlog;
+}
+#formcadastro{
+    grid-area: formcad;
+}
+
+/* -------------------------------------------------Textos------------------------------------------------ */
+
+#titulo{
+    grid-area: tit;
+    font-family: "namskin";
+    font-size: 5.5em;
+    color: rgb(54, 5, 109);
+}
+#titLogin{
+    font-family: "namskin";
+    font-size: 4em;
+    color: rgb(54, 5, 109);
+}
+label{
+    font-family: "freeride";
+    font-size: 2em;
+    color: rgb(54, 5, 109);
+}
+
+/* -------------------------------------------------Footer------------------------------------------------- */

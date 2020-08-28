@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <title>Cadastro</title>
+        <link rel="stylesheet" rel="stylesheet" href="css/index.css">
+    </head>
+
+    <body>
+        <section id="headerlog">
+            <nav id="menuLog">
+                <button id="menuini" onclick="retorna()">INICIO</button>
+                <button id="menupoe" onclick="listaPoesias()">POESIAS</button>
+                <button id="menuaut" onclick="listaAutores()">AUTORES</button>
+                <button id="menurand" onclick="random()">ALEATÓRIO</button>
+            </nav>
+        </section>
+
+        <section id="cadastro">
+            <form id="formcadastro">
+                <p id="titLogin">Cadastro...</p>
+                <div id="dCadNome">
+                    <label id="lblCadNome">Nome</label>&nbsp;<input id="inputCadNome" type="text" name="Nome" ></input>
+                </div>
+                <br>
+                <div id="dCadEmail">
+                    <label id="lblCadEmail">E-mail</label>&nbsp;<input id="inputCadEmail" type="text" name="Email" label="Email"></input>
+                </div>
+                <br>
+                <div id="dCadTelefone">
+                    <label id="lblCadTelefone">Telefone</label>&nbsp;<input id="inputCadTelefone" type="text" name="Telefone" ></input>
+                </div>
+                <br>
+                <div id="dCadSenha1">
+                    <label id="lblCadSenha1">Senha</label>&nbsp;<input id="inputCadSenha1" type="text" name="Senha1" ></input>
+                </div>
+                <br>
+                <div id="dCadSenha2">
+                    <label id="lblCadSenha2">Confirme a senha</label>&nbsp;<input id="inputCadSenha2" type="text" name="Senha2" ></input>
+                </div>
+                <br>
+                <button id="bCadastra">CADASTRAR</button>
+            </form>
+        </section>
+        
+        <script type="text/javascript" src="scripts\login.js"></script>
+    </body>
+</html>

@@ -1,0 +1,33 @@
+<!Doctype html>
+
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <title>Uma poesia</title>
+        <link rel="stylesheet" rel="stylesheet" href="css/index.css">
+    </head>
+       
+    <body>
+        <section id="header">
+            <nav id="menu">
+                <button id="menupoe" onclick="listaPoesias()">POESIAS</button>
+                <button id="menuaut" onclick="listaAutores()">AUTORES</button>
+                <button id="menurand" onclick="random()">ALEATÓRIO</button>
+                <button id="menulogin" onclick="login()">LOGIN</button>
+            </nav>
+            <div id="dtitulo">
+                <p id="titulo">*POSTA POESIA*</p>
+            </div>
+        </section>
+        <section id="cadastroOuLogin" style="display: none;">
+            <button id="bcadastrar" onclick="loginOuCadastro(0)">CADASTRE-SE</button>
+            <button id="blogar" onclick="loginOuCadastro(1)">ENTRAR</button>
+        </section>        
+        <section id="lista" style="display:none">
+                <p style="font-size: 80px; color:blue">UMA LISTA DE POESIA SERÁ MOSTRADA</p>
+                <input id="retornButton" type="button" value="RETORNAR" onclick="zerar()">                
+        </section>
+
+        <script type="text/javascript" src="scripts\index.js"></script>
+    </body>
+</html>

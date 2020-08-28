@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <title>Página de Login</title>
+        <link rel="stylesheet" rel="stylesheet" href="css/index.css">
+    </head>
+
+    <body>
+        <section id="headerlog">
+            <nav id="menuLog">
+                <button id="menuini" onclick="retorna()">INICIO</button>
+                <button id="menupoe" onclick="listaPoesias()">POESIAS</button>
+                <button id="menuaut" onclick="listaAutores()">AUTORES</button>
+                <button id="menurand" onclick="random()">ALEATÓRIO</button>
+            </nav>
+        </section>
+        <section id="login">
+            
+            <form id="formlogin">
+                <p id="titLogin">LogIn...</p>
+                <label id="loglabelinput">E-MAIL</label>&nbsp;<input type="text" name="logFormEmail" >
+                <br>
+                <br>
+                <label id="loglabelinput">SENHA </label>&nbsp;<input type="password" name="logFormPass" >
+                <br>
+                <br>
+                <button name="bEntrar">Entrar</button>
+            </form>
+        </section>
+        
+        <script type="text/javascript" src="scripts\login.js"></script>
+    </body>
+
+</html>
